@@ -1,4 +1,4 @@
--- Step 1 --
+-- Step 1 ---------
 --Get the username of the person who made the post about EmptyStack in forum_posts.
 /* 
 SELECT * FROM forum_posts WHERE date BETWEEN '2048-04-01' and '2048-05-01';
@@ -8,9 +8,36 @@ SELECT * FROM forum_posts WHERE date BETWEEN '2048-04-01' and '2048-05-01';
 --Author: smart-money-44
 
 
--- Step 2 --
+-- Step 2 ----------
 -- Get the last name of the person associated with that username in forum_accounts.
 /*
 SELECT * FROM forum_accounts WHERE username = '%44';
 */
 --Last name is Steele
+
+-- Step 3 ----------
+--Find all other accounts with the same last name.
+
+/*
+SELECT * FROM forum_accounts WHERE last_name = 'Steele';
+*/
+--Andrew and Kevin
+
+-- Step 4 ---------
+--Find all accounts in emptystack_accounts with the same last name.
+
+/*
+SELECT * FROM emptystack_accounts WHERE last_name = 'Steele';
+*/
+--passw: password456
+--username: triple-cart-38
+
+-- Step 5 -------
+--There will only be one EmptyStack employee with a forum account. 
+--Use their credentials to access node mainframe, 
+--which will output a new sql file for you to run.
+
+/*
+I ran node mainframe in vs code terminal and user the credentials to get the output.
+*/
+
