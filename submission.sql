@@ -50,3 +50,15 @@ SELECT * FROM emptystack_messages WHERE body ilike '%project%';
 */
 
 --your-boss-99 mentioned the project
+
+
+-- Step 7 -------------
+--Get the credentials for the admin account from emptystack_accounts.
+
+/*
+SELECT * FROM emptystack_accounts WHERE username = 'your-boss-99';
+*/
+--username: your-boss-99
+--passw: notagaincarter
+--name: Skylar Singer
+
