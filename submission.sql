@@ -41,3 +41,12 @@ SELECT * FROM emptystack_accounts WHERE last_name = 'Steele';
 I ran node mainframe in vs code terminal and user the credentials to get the output.
 */
 
+-- Step 6 ----------
+-- Find the message in emptystack_messages that mentions a project involving self-driving taxis. 
+--That message is sent from an admin account and also reveals the project code.
+
+/*
+SELECT * FROM emptystack_messages WHERE body ilike '%project%';
+*/
+
+--your-boss-99 mentioned the project
