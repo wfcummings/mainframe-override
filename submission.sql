@@ -70,4 +70,6 @@ SELECT * FROM emptystack_projects WHERE code = 'TAXI';
 
 --id: DczE0v2b
 
+-- Step 9 -------
+-- I entered all the credientals to hack the mainframe and stop the project. 
 --FINSISHED
